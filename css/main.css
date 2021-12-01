@@ -3,7 +3,9 @@
   white-space: normal;
   box-sizing: border-box;
 }
-
+body {
+  overflow-x: hidden;
+}
 ul {
   list-style: none;
 }
@@ -19,6 +21,8 @@ ul {
     url(../images/snow.png);
 
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 600;
   letter-spacing: 0.18em;
 }
